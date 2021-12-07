@@ -1,0 +1,510 @@
+digraph Arbol {
+	1 [label=S]
+	2 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	1 -> 2
+	3 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	1 -> 3
+	3 [label="$"]
+	2 [label=PROGRAM]
+	4 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	2 -> 4
+	5 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	2 -> 5
+	5 [label=INICIO]
+	7 [label=uma color=navy shape=egg style=bold]
+	5 -> 7
+	8 [label="(" color=navy shape=egg style=bold]
+	5 -> 8
+	9 [label=")" color=navy shape=egg style=bold]
+	5 -> 9
+	10 [label="{" color=navy shape=egg style=bold]
+	5 -> 10
+	11 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	5 -> 11
+	12 [label="}" color=navy shape=egg style=bold]
+	5 -> 12
+	12 [label="}"]
+	11 [label=PARRAFO]
+	13 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	11 -> 13
+	14 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	11 -> 14
+	14 [label=MAS]
+	35 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	14 -> 35
+	35 [label=PARRAFO]
+	36 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	35 -> 36
+	37 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	35 -> 37
+	37 [label=MAS]
+	58 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	37 -> 58
+	58 [label=PARRAFO]
+	59 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	58 -> 59
+	60 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	58 -> 60
+	60 [label=MAS]
+	81 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	60 -> 81
+	81 [label=PARRAFO]
+	82 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	81 -> 82
+	83 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	81 -> 83
+	83 [label=MAS]
+	102 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	83 -> 102
+	102 [label=PARRAFO]
+	103 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	102 -> 103
+	104 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	102 -> 104
+	104 [label=MAS]
+	125 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	104 -> 125
+	125 [label=PARRAFO]
+	126 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	125 -> 126
+	127 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	125 -> 127
+	127 [label=MAS]
+	169 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	127 -> 169
+	169 [label=PARRAFO]
+	170 [label=" " color=navy shape=egg style=bold]
+	169 -> 170
+	170 [label=" "]
+	126 [label=ORACION]
+	128 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	126 -> 128
+	128 [label=LUGAR]
+	129 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	128 -> 129
+	129 [label=IF_INIT]
+	130 [label=ari color=navy shape=egg style=bold]
+	129 -> 130
+	131 [label="(" color=navy shape=egg style=bold]
+	129 -> 131
+	132 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	129 -> 132
+	133 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	129 -> 133
+	134 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	129 -> 134
+	135 [label=")" color=navy shape=egg style=bold]
+	129 -> 135
+	136 [label="{" color=navy shape=egg style=bold]
+	129 -> 136
+	137 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	129 -> 137
+	138 [label="}" color=navy shape=egg style=bold]
+	129 -> 138
+	139 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	129 -> 139
+	139 [label=ELIF_INIT]
+	168 [label=" " color=navy shape=egg style=bold]
+	139 -> 168
+	168 [label=" "]
+	138 [label="}"]
+	137 [label=PARRAFO]
+	146 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	137 -> 146
+	147 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	137 -> 147
+	147 [label=MAS]
+	166 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	147 -> 166
+	166 [label=PARRAFO]
+	167 [label=" " color=navy shape=egg style=bold]
+	166 -> 167
+	167 [label=" "]
+	146 [label=ORACION]
+	148 [label=x color=navy shape=egg style=bold]
+	146 -> 148
+	149 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	146 -> 149
+	149 [label=LLAMADA]
+	150 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	149 -> 150
+	150 [label=VARIABLE_FORMA]
+	151 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	150 -> 151
+	152 [label=";" color=navy shape=egg style=bold]
+	150 -> 152
+	152 [label=";"]
+	151 [label=ASIGNACION]
+	153 [label="=" color=navy shape=egg style=bold]
+	151 -> 153
+	154 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	151 -> 154
+	154 [label=EXPRESION]
+	155 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	154 -> 155
+	156 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	154 -> 156
+	156 [label=TIPO_EXPRESION]
+	158 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	156 -> 158
+	158 [label=EXPRESION_NUMERICA]
+	159 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	158 -> 159
+	159 [label=BONUS]
+	160 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	159 -> 160
+	161 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	159 -> 161
+	162 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	159 -> 162
+	162 [label=BONUS]
+	165 [label=" " color=navy shape=egg style=bold]
+	162 -> 165
+	165 [label=" "]
+	161 [label=VALOR_PARAMETRO]
+	164 [label=1 color=navy shape=egg style=bold]
+	161 -> 164
+	164 [label=1]
+	160 [label=SUMA]
+	163 [label="+" color=navy shape=egg style=bold]
+	160 -> 163
+	163 [label="+"]
+	155 [label=VALOR_PARAMETRO]
+	157 [label=x color=navy shape=egg style=bold]
+	155 -> 157
+	157 [label=x]
+	153 [label="="]
+	148 [label=x]
+	136 [label="{"]
+	135 [label=")"]
+	134 [label=LOGICA]
+	142 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	134 -> 142
+	143 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	134 -> 143
+	143 [label=VALOR_PARAMETRO]
+	145 [label=2 color=navy shape=egg style=bold]
+	143 -> 145
+	145 [label=2]
+	142 [label=Y]
+	144 [label="<" color=navy shape=egg style=bold]
+	142 -> 144
+	144 [label="<"]
+	133 [label=VALOR_PARAMETRO]
+	141 [label=x color=navy shape=egg style=bold]
+	133 -> 141
+	141 [label=x]
+	132 [label=NEGACION]
+	140 [label=" " color=navy shape=egg style=bold]
+	132 -> 140
+	140 [label=" "]
+	131 [label="("]
+	130 [label=ari]
+	103 [label=ORACION]
+	105 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	103 -> 105
+	105 [label=VARIABLES]
+	106 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	105 -> 106
+	107 [label=z color=navy shape=egg style=bold]
+	105 -> 107
+	108 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	105 -> 108
+	108 [label=VARIABLE_FORMA]
+	110 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	108 -> 110
+	111 [label=";" color=navy shape=egg style=bold]
+	108 -> 111
+	111 [label=";"]
+	110 [label=ASIGNACION]
+	112 [label="=" color=navy shape=egg style=bold]
+	110 -> 112
+	113 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	110 -> 113
+	113 [label=EXPRESION]
+	114 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	113 -> 114
+	115 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	113 -> 115
+	115 [label=TIPO_EXPRESION]
+	117 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	115 -> 117
+	117 [label=EXPRESION_NUMERICA]
+	118 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	117 -> 118
+	118 [label=BONUS]
+	119 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	118 -> 119
+	120 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	118 -> 120
+	121 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	118 -> 121
+	121 [label=BONUS]
+	124 [label=" " color=navy shape=egg style=bold]
+	121 -> 124
+	124 [label=" "]
+	120 [label=VALOR_PARAMETRO]
+	123 [label=a color=navy shape=egg style=bold]
+	120 -> 123
+	123 [label=a]
+	119 [label=SUMA]
+	122 [label="+" color=navy shape=egg style=bold]
+	119 -> 122
+	122 [label="+"]
+	114 [label=VALOR_PARAMETRO]
+	116 [label=x color=navy shape=egg style=bold]
+	114 -> 116
+	116 [label=x]
+	112 [label="="]
+	107 [label=z]
+	106 [label=TIPO_ESPECIAL]
+	109 [label=hun color=navy shape=egg style=bold]
+	106 -> 109
+	109 [label=hun]
+	82 [label=ORACION]
+	84 [label=x color=navy shape=egg style=bold]
+	82 -> 84
+	85 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	82 -> 85
+	85 [label=LLAMADA]
+	86 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	85 -> 86
+	86 [label=VARIABLE_FORMA]
+	87 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	86 -> 87
+	88 [label=";" color=navy shape=egg style=bold]
+	86 -> 88
+	88 [label=";"]
+	87 [label=ASIGNACION]
+	89 [label="=" color=navy shape=egg style=bold]
+	87 -> 89
+	90 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	87 -> 90
+	90 [label=EXPRESION]
+	91 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	90 -> 91
+	92 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	90 -> 92
+	92 [label=TIPO_EXPRESION]
+	94 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	92 -> 94
+	94 [label=EXPRESION_NUMERICA]
+	95 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	94 -> 95
+	95 [label=BONUS]
+	96 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	95 -> 96
+	97 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	95 -> 97
+	98 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	95 -> 98
+	98 [label=BONUS]
+	101 [label=" " color=navy shape=egg style=bold]
+	98 -> 101
+	101 [label=" "]
+	97 [label=VALOR_PARAMETRO]
+	100 [label=2 color=navy shape=egg style=bold]
+	97 -> 100
+	100 [label=2]
+	96 [label=SUMA]
+	99 [label="+" color=navy shape=egg style=bold]
+	96 -> 99
+	99 [label="+"]
+	91 [label=VALOR_PARAMETRO]
+	93 [label=x color=navy shape=egg style=bold]
+	91 -> 93
+	93 [label=x]
+	89 [label="="]
+	84 [label=x]
+	59 [label=ORACION]
+	61 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	59 -> 61
+	61 [label=VARIABLES]
+	62 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	61 -> 62
+	63 [label=y color=navy shape=egg style=bold]
+	61 -> 63
+	64 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	61 -> 64
+	64 [label=VARIABLE_FORMA]
+	66 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	64 -> 66
+	67 [label=";" color=navy shape=egg style=bold]
+	64 -> 67
+	67 [label=";"]
+	66 [label=ASIGNACION]
+	68 [label="=" color=navy shape=egg style=bold]
+	66 -> 68
+	69 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	66 -> 69
+	69 [label=EXPRESION]
+	70 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	69 -> 70
+	71 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	69 -> 71
+	71 [label=TIPO_EXPRESION]
+	73 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	71 -> 73
+	73 [label=EXPRESION_NUMERICA]
+	74 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	73 -> 74
+	74 [label=BONUS]
+	75 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	74 -> 75
+	76 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	74 -> 76
+	77 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	74 -> 77
+	77 [label=BONUS]
+	80 [label=" " color=navy shape=egg style=bold]
+	77 -> 80
+	80 [label=" "]
+	76 [label=VALOR_PARAMETRO]
+	79 [label="\"hola\"" color=navy shape=egg style=bold]
+	76 -> 79
+	79 [label="\"hola\""]
+	75 [label=SUMA]
+	78 [label="+" color=navy shape=egg style=bold]
+	75 -> 78
+	78 [label="+"]
+	70 [label=VALOR_PARAMETRO]
+	72 [label=5 color=navy shape=egg style=bold]
+	70 -> 72
+	72 [label=5]
+	68 [label="="]
+	63 [label=y]
+	62 [label=TIPO_ESPECIAL]
+	65 [label=hun color=navy shape=egg style=bold]
+	62 -> 65
+	65 [label=hun]
+	36 [label=ORACION]
+	38 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	36 -> 38
+	38 [label=VARIABLES]
+	39 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	38 -> 39
+	40 [label=x color=navy shape=egg style=bold]
+	38 -> 40
+	41 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	38 -> 41
+	41 [label=VARIABLE_FORMA]
+	43 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	41 -> 43
+	44 [label=";" color=navy shape=egg style=bold]
+	41 -> 44
+	44 [label=";"]
+	43 [label=ASIGNACION]
+	45 [label="=" color=navy shape=egg style=bold]
+	43 -> 45
+	46 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	43 -> 46
+	46 [label=EXPRESION]
+	47 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	46 -> 47
+	48 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	46 -> 48
+	48 [label=TIPO_EXPRESION]
+	50 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	48 -> 50
+	50 [label=EXPRESION_NUMERICA]
+	51 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	50 -> 51
+	51 [label=BONUS]
+	52 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	51 -> 52
+	53 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	51 -> 53
+	54 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	51 -> 54
+	54 [label=BONUS]
+	57 [label=" " color=navy shape=egg style=bold]
+	54 -> 57
+	57 [label=" "]
+	53 [label=VALOR_PARAMETRO]
+	56 [label=2 color=navy shape=egg style=bold]
+	53 -> 56
+	56 [label=2]
+	52 [label=SUMA]
+	55 [label="+" color=navy shape=egg style=bold]
+	52 -> 55
+	55 [label="+"]
+	47 [label=VALOR_PARAMETRO]
+	49 [label=x color=navy shape=egg style=bold]
+	47 -> 49
+	49 [label=x]
+	45 [label="="]
+	40 [label=x]
+	39 [label=TIPO_ESPECIAL]
+	42 [label=hun color=navy shape=egg style=bold]
+	39 -> 42
+	42 [label=hun]
+	13 [label=ORACION]
+	15 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	13 -> 15
+	15 [label=VARIABLES]
+	16 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	15 -> 16
+	17 [label=x color=navy shape=egg style=bold]
+	15 -> 17
+	18 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	15 -> 18
+	18 [label=VARIABLE_FORMA]
+	20 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	18 -> 20
+	21 [label=";" color=navy shape=egg style=bold]
+	18 -> 21
+	21 [label=";"]
+	20 [label=ASIGNACION]
+	22 [label="=" color=navy shape=egg style=bold]
+	20 -> 22
+	23 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	20 -> 23
+	23 [label=EXPRESION]
+	24 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	23 -> 24
+	25 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	23 -> 25
+	25 [label=TIPO_EXPRESION]
+	27 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	25 -> 27
+	27 [label=EXPRESION_NUMERICA]
+	28 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	27 -> 28
+	28 [label=BONUS]
+	29 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	28 -> 29
+	30 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	28 -> 30
+	31 [label=" " color=crimson fillcolor=palegreen shape=house style=filled]
+	28 -> 31
+	31 [label=BONUS]
+	34 [label=" " color=navy shape=egg style=bold]
+	31 -> 34
+	34 [label=" "]
+	30 [label=VALOR_PARAMETRO]
+	33 [label=2 color=navy shape=egg style=bold]
+	30 -> 33
+	33 [label=2]
+	29 [label=SUMA]
+	32 [label="-" color=navy shape=egg style=bold]
+	29 -> 32
+	32 [label="-"]
+	24 [label=VALOR_PARAMETRO]
+	26 [label=4 color=navy shape=egg style=bold]
+	24 -> 26
+	26 [label=4]
+	22 [label="="]
+	17 [label=x]
+	16 [label=TIPO_ESPECIAL]
+	19 [label=hun color=navy shape=egg style=bold]
+	16 -> 19
+	19 [label=hun]
+	10 [label="{"]
+	9 [label=")"]
+	8 [label="("]
+	7 [label=uma]
+	4 [label=FUNCION]
+	6 [label=" " color=navy shape=egg style=bold]
+	4 -> 6
+	6 [label=" "]
+}

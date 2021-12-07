@@ -1,0 +1,10 @@
+uma () {
+  hun x = 4 - 2;
+  hun x = x + 2;
+  hun y = 5 + "hola";
+  x = x + 2;
+  hun z = x + a;
+  ari (x < 2) {
+    x = x+1 ;
+  }
+}

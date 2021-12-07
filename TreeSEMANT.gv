@@ -1,0 +1,1527 @@
+digraph Arbol {
+	"1
+S
+ 
+0"
+	"2
+Simbolo: PROGRAM
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	1 -> 2
+	"3
+Simbolo: $
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	1 -> 3
+	"3
+$
+ 
+0"
+	"2
+PROGRAM
+ 
+0"
+	"4
+Simbolo: FUNCION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	2 -> 4
+	"5
+Simbolo: INICIO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	2 -> 5
+	"5
+INICIO
+ 
+0"
+	"7
+Simbolo: main
+Lexema: uma
+Linea: 5" [color=navy shape=egg style=bold]
+	5 -> 7
+	"8
+Simbolo: par_init
+Lexema: (
+Linea: 5" [color=navy shape=egg style=bold]
+	5 -> 8
+	"9
+Simbolo: par_fin
+Lexema: )
+Linea: 5" [color=navy shape=egg style=bold]
+	5 -> 9
+	"10
+Simbolo: key_init
+Lexema: {
+Linea: 5" [color=navy shape=egg style=bold]
+	5 -> 10
+	"11
+Simbolo: PARRAFO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	5 -> 11
+	"12
+Simbolo: key_fin
+Lexema: }
+Linea: 13" [color=navy shape=egg style=bold]
+	5 -> 12
+	"12
+key_fin
+}
+13"
+	"11
+PARRAFO
+ 
+0"
+	"13
+Simbolo: ORACION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	11 -> 13
+	"14
+Simbolo: MAS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	11 -> 14
+	"14
+MAS
+ 
+0"
+	"35
+Simbolo: PARRAFO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	14 -> 35
+	"35
+PARRAFO
+ 
+0"
+	"36
+Simbolo: ORACION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	35 -> 36
+	"37
+Simbolo: MAS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	35 -> 37
+	"37
+MAS
+ 
+0"
+	"58
+Simbolo: PARRAFO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	37 -> 58
+	"58
+PARRAFO
+ 
+0"
+	"59
+Simbolo: ORACION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	58 -> 59
+	"60
+Simbolo: MAS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	58 -> 60
+	"60
+MAS
+ 
+0"
+	"81
+Simbolo: PARRAFO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	60 -> 81
+	"81
+PARRAFO
+ 
+0"
+	"82
+Simbolo: ORACION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	81 -> 82
+	"83
+Simbolo: MAS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	81 -> 83
+	"83
+MAS
+ 
+0"
+	"102
+Simbolo: PARRAFO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	83 -> 102
+	"102
+PARRAFO
+ 
+0"
+	"103
+Simbolo: ORACION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	102 -> 103
+	"104
+Simbolo: MAS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	102 -> 104
+	"104
+MAS
+ 
+0"
+	"125
+Simbolo: PARRAFO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	104 -> 125
+	"125
+PARRAFO
+ 
+0"
+	"126
+Simbolo: ORACION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	125 -> 126
+	"127
+Simbolo: MAS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	125 -> 127
+	"127
+MAS
+ 
+0"
+	"169
+Simbolo: PARRAFO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	127 -> 169
+	"169
+PARRAFO
+ 
+0"
+	"170
+Simbolo: ε
+Lexema:  
+Linea: 0" [color=navy shape=egg style=bold]
+	169 -> 170
+	"170
+ε
+ 
+0"
+	"126
+ORACION
+ 
+0"
+	"128
+Simbolo: LUGAR
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	126 -> 128
+	"128
+LUGAR
+ 
+0"
+	"129
+Simbolo: IF_INIT
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	128 -> 129
+	"129
+IF_INIT
+ 
+0"
+	"130
+Simbolo: if
+Lexema: ari
+Linea: 11" [color=navy shape=egg style=bold]
+	129 -> 130
+	"131
+Simbolo: par_init
+Lexema: (
+Linea: 11" [color=navy shape=egg style=bold]
+	129 -> 131
+	"132
+Simbolo: NEGACION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	129 -> 132
+	"133
+Simbolo: VALOR_PARAMETRO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	129 -> 133
+	"134
+Simbolo: LOGICA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	129 -> 134
+	"135
+Simbolo: par_fin
+Lexema: )
+Linea: 11" [color=navy shape=egg style=bold]
+	129 -> 135
+	"136
+Simbolo: key_init
+Lexema: {
+Linea: 11" [color=navy shape=egg style=bold]
+	129 -> 136
+	"137
+Simbolo: PARRAFO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	129 -> 137
+	"138
+Simbolo: key_fin
+Lexema: }
+Linea: 13" [color=navy shape=egg style=bold]
+	129 -> 138
+	"139
+Simbolo: ELIF_INIT
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	129 -> 139
+	"139
+ELIF_INIT
+ 
+0"
+	"168
+Simbolo: ε
+Lexema:  
+Linea: 0" [color=navy shape=egg style=bold]
+	139 -> 168
+	"168
+ε
+ 
+0"
+	"138
+key_fin
+}
+13"
+	"137
+PARRAFO
+ 
+0"
+	"146
+Simbolo: ORACION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	137 -> 146
+	"147
+Simbolo: MAS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	137 -> 147
+	"147
+MAS
+ 
+0"
+	"166
+Simbolo: PARRAFO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	147 -> 166
+	"166
+PARRAFO
+ 
+0"
+	"167
+Simbolo: ε
+Lexema:  
+Linea: 0" [color=navy shape=egg style=bold]
+	166 -> 167
+	"167
+ε
+ 
+0"
+	"146
+ORACION
+ 
+0"
+	"148
+Simbolo: id
+Lexema: x
+Linea: 12" [color=navy shape=egg style=bold]
+	146 -> 148
+	"149
+Simbolo: LLAMADA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	146 -> 149
+	"149
+LLAMADA
+ 
+0"
+	"150
+Simbolo: VARIABLE_FORMA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	149 -> 150
+	"150
+VARIABLE_FORMA
+ 
+0"
+	"151
+Simbolo: ASIGNACION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	150 -> 151
+	"152
+Simbolo: break_line
+Lexema: ;
+Linea: 12" [color=navy shape=egg style=bold]
+	150 -> 152
+	"152
+break_line
+;
+12"
+	"151
+ASIGNACION
+ 
+0"
+	"153
+Simbolo: oper_asign
+Lexema: =
+Linea: 12" [color=navy shape=egg style=bold]
+	151 -> 153
+	"154
+Simbolo: EXPRESION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	151 -> 154
+	"154
+EXPRESION
+ 
+0"
+	"155
+Simbolo: VALOR_PARAMETRO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	154 -> 155
+	"156
+Simbolo: TIPO_EXPRESION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	154 -> 156
+	"156
+TIPO_EXPRESION
+ 
+0"
+	"158
+Simbolo: EXPRESION_NUMERICA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	156 -> 158
+	"158
+EXPRESION_NUMERICA
+ 
+0"
+	"159
+Simbolo: BONUS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	158 -> 159
+	"159
+BONUS
+ 
+0"
+	"160
+Simbolo: SUMA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	159 -> 160
+	"161
+Simbolo: VALOR_PARAMETRO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	159 -> 161
+	"162
+Simbolo: BONUS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	159 -> 162
+	"162
+BONUS
+ 
+0"
+	"165
+Simbolo: ε
+Lexema:  
+Linea: 0" [color=navy shape=egg style=bold]
+	162 -> 165
+	"165
+ε
+ 
+0"
+	"161
+VALOR_PARAMETRO
+ 
+0"
+	"164
+Simbolo: number
+Lexema: 1
+Linea: 12" [color=navy shape=egg style=bold]
+	161 -> 164
+	"164
+number
+1
+12"
+	"160
+SUMA
+ 
+0"
+	"163
+Simbolo: oper_suma
+Lexema: +
+Linea: 12" [color=navy shape=egg style=bold]
+	160 -> 163
+	"163
+oper_suma
++
+12"
+	"155
+VALOR_PARAMETRO
+ 
+0"
+	"157
+Simbolo: id
+Lexema: x
+Linea: 12" [color=navy shape=egg style=bold]
+	155 -> 157
+	"157
+id
+x
+12"
+	"153
+oper_asign
+=
+12"
+	"148
+id
+x
+12"
+	"136
+key_init
+{
+11"
+	"135
+par_fin
+)
+11"
+	"134
+LOGICA
+ 
+0"
+	"142
+Simbolo: Y
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	134 -> 142
+	"143
+Simbolo: VALOR_PARAMETRO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	134 -> 143
+	"143
+VALOR_PARAMETRO
+ 
+0"
+	"145
+Simbolo: number
+Lexema: 2
+Linea: 11" [color=navy shape=egg style=bold]
+	143 -> 145
+	"145
+number
+2
+11"
+	"142
+Y
+ 
+0"
+	"144
+Simbolo: oper_menor
+Lexema: <
+Linea: 11" [color=navy shape=egg style=bold]
+	142 -> 144
+	"144
+oper_menor
+<
+11"
+	"133
+VALOR_PARAMETRO
+ 
+0"
+	"141
+Simbolo: id
+Lexema: x
+Linea: 11" [color=navy shape=egg style=bold]
+	133 -> 141
+	"141
+id
+x
+11"
+	"132
+NEGACION
+ 
+0"
+	"140
+Simbolo: ε
+Lexema:  
+Linea: 0" [color=navy shape=egg style=bold]
+	132 -> 140
+	"140
+ε
+ 
+0"
+	"131
+par_init
+(
+11"
+	"130
+if
+ari
+11"
+	"103
+ORACION
+ 
+0"
+	"105
+Simbolo: VARIABLES
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	103 -> 105
+	"105
+VARIABLES
+ 
+0"
+	"106
+Simbolo: TIPO_ESPECIAL
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	105 -> 106
+	"107
+Simbolo: id
+Lexema: z
+Linea: 10" [color=navy shape=egg style=bold]
+	105 -> 107
+	"108
+Simbolo: VARIABLE_FORMA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	105 -> 108
+	"108
+VARIABLE_FORMA
+ 
+0"
+	"110
+Simbolo: ASIGNACION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	108 -> 110
+	"111
+Simbolo: break_line
+Lexema: ;
+Linea: 10" [color=navy shape=egg style=bold]
+	108 -> 111
+	"111
+break_line
+;
+10"
+	"110
+ASIGNACION
+ 
+0"
+	"112
+Simbolo: oper_asign
+Lexema: =
+Linea: 10" [color=navy shape=egg style=bold]
+	110 -> 112
+	"113
+Simbolo: EXPRESION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	110 -> 113
+	"113
+EXPRESION
+ 
+0"
+	"114
+Simbolo: VALOR_PARAMETRO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	113 -> 114
+	"115
+Simbolo: TIPO_EXPRESION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	113 -> 115
+	"115
+TIPO_EXPRESION
+ 
+0"
+	"117
+Simbolo: EXPRESION_NUMERICA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	115 -> 117
+	"117
+EXPRESION_NUMERICA
+ 
+0"
+	"118
+Simbolo: BONUS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	117 -> 118
+	"118
+BONUS
+ 
+0"
+	"119
+Simbolo: SUMA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	118 -> 119
+	"120
+Simbolo: VALOR_PARAMETRO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	118 -> 120
+	"121
+Simbolo: BONUS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	118 -> 121
+	"121
+BONUS
+ 
+0"
+	"124
+Simbolo: ε
+Lexema:  
+Linea: 0" [color=navy shape=egg style=bold]
+	121 -> 124
+	"124
+ε
+ 
+0"
+	"120
+VALOR_PARAMETRO
+ 
+0"
+	"123
+Simbolo: id
+Lexema: a
+Linea: 10" [color=navy shape=egg style=bold]
+	120 -> 123
+	"123
+id
+a
+10"
+	"119
+SUMA
+ 
+0"
+	"122
+Simbolo: oper_suma
+Lexema: +
+Linea: 10" [color=navy shape=egg style=bold]
+	119 -> 122
+	"122
+oper_suma
++
+10"
+	"114
+VALOR_PARAMETRO
+ 
+0"
+	"116
+Simbolo: id
+Lexema: x
+Linea: 10" [color=navy shape=egg style=bold]
+	114 -> 116
+	"116
+id
+x
+10"
+	"112
+oper_asign
+=
+10"
+	"107
+id
+z
+10"
+	"106
+TIPO_ESPECIAL
+ 
+0"
+	"109
+Simbolo: integer
+Lexema: hun
+Linea: 10" [color=navy shape=egg style=bold]
+	106 -> 109
+	"109
+integer
+hun
+10"
+	"82
+ORACION
+ 
+0"
+	"84
+Simbolo: id
+Lexema: x
+Linea: 9" [color=navy shape=egg style=bold]
+	82 -> 84
+	"85
+Simbolo: LLAMADA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	82 -> 85
+	"85
+LLAMADA
+ 
+0"
+	"86
+Simbolo: VARIABLE_FORMA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	85 -> 86
+	"86
+VARIABLE_FORMA
+ 
+0"
+	"87
+Simbolo: ASIGNACION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	86 -> 87
+	"88
+Simbolo: break_line
+Lexema: ;
+Linea: 9" [color=navy shape=egg style=bold]
+	86 -> 88
+	"88
+break_line
+;
+9"
+	"87
+ASIGNACION
+ 
+0"
+	"89
+Simbolo: oper_asign
+Lexema: =
+Linea: 9" [color=navy shape=egg style=bold]
+	87 -> 89
+	"90
+Simbolo: EXPRESION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	87 -> 90
+	"90
+EXPRESION
+ 
+0"
+	"91
+Simbolo: VALOR_PARAMETRO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	90 -> 91
+	"92
+Simbolo: TIPO_EXPRESION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	90 -> 92
+	"92
+TIPO_EXPRESION
+ 
+0"
+	"94
+Simbolo: EXPRESION_NUMERICA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	92 -> 94
+	"94
+EXPRESION_NUMERICA
+ 
+0"
+	"95
+Simbolo: BONUS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	94 -> 95
+	"95
+BONUS
+ 
+0"
+	"96
+Simbolo: SUMA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	95 -> 96
+	"97
+Simbolo: VALOR_PARAMETRO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	95 -> 97
+	"98
+Simbolo: BONUS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	95 -> 98
+	"98
+BONUS
+ 
+0"
+	"101
+Simbolo: ε
+Lexema:  
+Linea: 0" [color=navy shape=egg style=bold]
+	98 -> 101
+	"101
+ε
+ 
+0"
+	"97
+VALOR_PARAMETRO
+ 
+0"
+	"100
+Simbolo: number
+Lexema: 2
+Linea: 9" [color=navy shape=egg style=bold]
+	97 -> 100
+	"100
+number
+2
+9"
+	"96
+SUMA
+ 
+0"
+	"99
+Simbolo: oper_suma
+Lexema: +
+Linea: 9" [color=navy shape=egg style=bold]
+	96 -> 99
+	"99
+oper_suma
++
+9"
+	"91
+VALOR_PARAMETRO
+ 
+0"
+	"93
+Simbolo: id
+Lexema: x
+Linea: 9" [color=navy shape=egg style=bold]
+	91 -> 93
+	"93
+id
+x
+9"
+	"89
+oper_asign
+=
+9"
+	"84
+id
+x
+9"
+	"59
+ORACION
+ 
+0"
+	"61
+Simbolo: VARIABLES
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	59 -> 61
+	"61
+VARIABLES
+ 
+0"
+	"62
+Simbolo: TIPO_ESPECIAL
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	61 -> 62
+	"63
+Simbolo: id
+Lexema: y
+Linea: 8" [color=navy shape=egg style=bold]
+	61 -> 63
+	"64
+Simbolo: VARIABLE_FORMA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	61 -> 64
+	"64
+VARIABLE_FORMA
+ 
+0"
+	"66
+Simbolo: ASIGNACION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	64 -> 66
+	"67
+Simbolo: break_line
+Lexema: ;
+Linea: 8" [color=navy shape=egg style=bold]
+	64 -> 67
+	"67
+break_line
+;
+8"
+	"66
+ASIGNACION
+ 
+0"
+	"68
+Simbolo: oper_asign
+Lexema: =
+Linea: 8" [color=navy shape=egg style=bold]
+	66 -> 68
+	"69
+Simbolo: EXPRESION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	66 -> 69
+	"69
+EXPRESION
+ 
+0"
+	"70
+Simbolo: VALOR_PARAMETRO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	69 -> 70
+	"71
+Simbolo: TIPO_EXPRESION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	69 -> 71
+	"71
+TIPO_EXPRESION
+ 
+0"
+	"73
+Simbolo: EXPRESION_NUMERICA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	71 -> 73
+	"73
+EXPRESION_NUMERICA
+ 
+0"
+	"74
+Simbolo: BONUS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	73 -> 74
+	"74
+BONUS
+ 
+0"
+	"75
+Simbolo: SUMA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	74 -> 75
+	"76
+Simbolo: VALOR_PARAMETRO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	74 -> 76
+	"77
+Simbolo: BONUS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	74 -> 77
+	"77
+BONUS
+ 
+0"
+	"80
+Simbolo: ε
+Lexema:  
+Linea: 0" [color=navy shape=egg style=bold]
+	77 -> 80
+	"80
+ε
+ 
+0"
+	"76
+VALOR_PARAMETRO
+ 
+0"
+	"79
+Simbolo: texto
+Lexema: \"hola\"
+Linea: 8" [color=navy shape=egg style=bold]
+	76 -> 79
+	"79
+texto
+\"hola\"
+8"
+	"75
+SUMA
+ 
+0"
+	"78
+Simbolo: oper_suma
+Lexema: +
+Linea: 8" [color=navy shape=egg style=bold]
+	75 -> 78
+	"78
+oper_suma
++
+8"
+	"70
+VALOR_PARAMETRO
+ 
+0"
+	"72
+Simbolo: number
+Lexema: 5
+Linea: 8" [color=navy shape=egg style=bold]
+	70 -> 72
+	"72
+number
+5
+8"
+	"68
+oper_asign
+=
+8"
+	"63
+id
+y
+8"
+	"62
+TIPO_ESPECIAL
+ 
+0"
+	"65
+Simbolo: integer
+Lexema: hun
+Linea: 8" [color=navy shape=egg style=bold]
+	62 -> 65
+	"65
+integer
+hun
+8"
+	"36
+ORACION
+ 
+0"
+	"38
+Simbolo: VARIABLES
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	36 -> 38
+	"38
+VARIABLES
+ 
+0"
+	"39
+Simbolo: TIPO_ESPECIAL
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	38 -> 39
+	"40
+Simbolo: id
+Lexema: x
+Linea: 7" [color=navy shape=egg style=bold]
+	38 -> 40
+	"41
+Simbolo: VARIABLE_FORMA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	38 -> 41
+	"41
+VARIABLE_FORMA
+ 
+0"
+	"43
+Simbolo: ASIGNACION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	41 -> 43
+	"44
+Simbolo: break_line
+Lexema: ;
+Linea: 7" [color=navy shape=egg style=bold]
+	41 -> 44
+	"44
+break_line
+;
+7"
+	"43
+ASIGNACION
+ 
+0"
+	"45
+Simbolo: oper_asign
+Lexema: =
+Linea: 7" [color=navy shape=egg style=bold]
+	43 -> 45
+	"46
+Simbolo: EXPRESION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	43 -> 46
+	"46
+EXPRESION
+ 
+0"
+	"47
+Simbolo: VALOR_PARAMETRO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	46 -> 47
+	"48
+Simbolo: TIPO_EXPRESION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	46 -> 48
+	"48
+TIPO_EXPRESION
+ 
+0"
+	"50
+Simbolo: EXPRESION_NUMERICA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	48 -> 50
+	"50
+EXPRESION_NUMERICA
+ 
+0"
+	"51
+Simbolo: BONUS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	50 -> 51
+	"51
+BONUS
+ 
+0"
+	"52
+Simbolo: SUMA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	51 -> 52
+	"53
+Simbolo: VALOR_PARAMETRO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	51 -> 53
+	"54
+Simbolo: BONUS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	51 -> 54
+	"54
+BONUS
+ 
+0"
+	"57
+Simbolo: ε
+Lexema:  
+Linea: 0" [color=navy shape=egg style=bold]
+	54 -> 57
+	"57
+ε
+ 
+0"
+	"53
+VALOR_PARAMETRO
+ 
+0"
+	"56
+Simbolo: number
+Lexema: 2
+Linea: 7" [color=navy shape=egg style=bold]
+	53 -> 56
+	"56
+number
+2
+7"
+	"52
+SUMA
+ 
+0"
+	"55
+Simbolo: oper_suma
+Lexema: +
+Linea: 7" [color=navy shape=egg style=bold]
+	52 -> 55
+	"55
+oper_suma
++
+7"
+	"47
+VALOR_PARAMETRO
+ 
+0"
+	"49
+Simbolo: id
+Lexema: x
+Linea: 7" [color=navy shape=egg style=bold]
+	47 -> 49
+	"49
+id
+x
+7"
+	"45
+oper_asign
+=
+7"
+	"40
+id
+x
+7"
+	"39
+TIPO_ESPECIAL
+ 
+0"
+	"42
+Simbolo: integer
+Lexema: hun
+Linea: 7" [color=navy shape=egg style=bold]
+	39 -> 42
+	"42
+integer
+hun
+7"
+	"13
+ORACION
+ 
+0"
+	"15
+Simbolo: VARIABLES
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	13 -> 15
+	"15
+VARIABLES
+ 
+0"
+	"16
+Simbolo: TIPO_ESPECIAL
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	15 -> 16
+	"17
+Simbolo: id
+Lexema: x
+Linea: 6" [color=navy shape=egg style=bold]
+	15 -> 17
+	"18
+Simbolo: VARIABLE_FORMA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	15 -> 18
+	"18
+VARIABLE_FORMA
+ 
+0"
+	"20
+Simbolo: ASIGNACION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	18 -> 20
+	"21
+Simbolo: break_line
+Lexema: ;
+Linea: 6" [color=navy shape=egg style=bold]
+	18 -> 21
+	"21
+break_line
+;
+6"
+	"20
+ASIGNACION
+ 
+0"
+	"22
+Simbolo: oper_asign
+Lexema: =
+Linea: 6" [color=navy shape=egg style=bold]
+	20 -> 22
+	"23
+Simbolo: EXPRESION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	20 -> 23
+	"23
+EXPRESION
+ 
+0"
+	"24
+Simbolo: VALOR_PARAMETRO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	23 -> 24
+	"25
+Simbolo: TIPO_EXPRESION
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	23 -> 25
+	"25
+TIPO_EXPRESION
+ 
+0"
+	"27
+Simbolo: EXPRESION_NUMERICA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	25 -> 27
+	"27
+EXPRESION_NUMERICA
+ 
+0"
+	"28
+Simbolo: BONUS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	27 -> 28
+	"28
+BONUS
+ 
+0"
+	"29
+Simbolo: SUMA
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	28 -> 29
+	"30
+Simbolo: VALOR_PARAMETRO
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	28 -> 30
+	"31
+Simbolo: BONUS
+Lexema:  
+Linea: 0" [color=crimson fillcolor=palegreen shape=house style=filled]
+	28 -> 31
+	"31
+BONUS
+ 
+0"
+	"34
+Simbolo: ε
+Lexema:  
+Linea: 0" [color=navy shape=egg style=bold]
+	31 -> 34
+	"34
+ε
+ 
+0"
+	"30
+VALOR_PARAMETRO
+ 
+0"
+	"33
+Simbolo: number
+Lexema: 2
+Linea: 6" [color=navy shape=egg style=bold]
+	30 -> 33
+	"33
+number
+2
+6"
+	"29
+SUMA
+ 
+0"
+	"32
+Simbolo: oper_dif
+Lexema: -
+Linea: 6" [color=navy shape=egg style=bold]
+	29 -> 32
+	"32
+oper_dif
+-
+6"
+	"24
+VALOR_PARAMETRO
+ 
+0"
+	"26
+Simbolo: number
+Lexema: 4
+Linea: 6" [color=navy shape=egg style=bold]
+	24 -> 26
+	"26
+number
+4
+6"
+	"22
+oper_asign
+=
+6"
+	"17
+id
+x
+6"
+	"16
+TIPO_ESPECIAL
+ 
+0"
+	"19
+Simbolo: integer
+Lexema: hun
+Linea: 6" [color=navy shape=egg style=bold]
+	16 -> 19
+	"19
+integer
+hun
+6"
+	"10
+key_init
+{
+5"
+	"9
+par_fin
+)
+5"
+	"8
+par_init
+(
+5"
+	"7
+main
+uma
+5"
+	"4
+FUNCION
+ 
+0"
+	"6
+Simbolo: ε
+Lexema:  
+Linea: 0" [color=navy shape=egg style=bold]
+	4 -> 6
+	"6
+ε
+ 
+0"
+}

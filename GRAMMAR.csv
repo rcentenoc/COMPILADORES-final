@@ -1,0 +1,42 @@
+,$,main,par_init,par_fin,key_init,key_fin,id,break_line,comma,number,texto,char,true,false,oper_asign,if,else,while,for,return,not,input,break,output,oper_suma,oper_dif,oper_mod,oper_div,oper_mult,and,or,oper_identico,oper_diferente,oper_mayor,oper_menor,oper_menorigu,oper_mayorigu,character,boolean,string,integer
+S,,S ::= PROGRAM $,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,S ::= PROGRAM $,S ::= PROGRAM $,S ::= PROGRAM $,S ::= PROGRAM $
+PROGRAM,,PROGRAM ::= FUNCION INICIO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PROGRAM ::= FUNCION INICIO,PROGRAM ::= FUNCION INICIO,PROGRAM ::= FUNCION INICIO,PROGRAM ::= FUNCION INICIO
+FUNCION,,FUNCION ::= ε,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FUNCION ::= FUNC_INIT FUNCION,FUNCION ::= FUNC_INIT FUNCION,FUNCION ::= FUNC_INIT FUNCION,FUNCION ::= FUNC_INIT FUNCION
+INICIO,,INICIO ::= main par_init par_fin key_init PARRAFO key_fin,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PARRAFO,,,,,,PARRAFO ::= ε,PARRAFO ::= ORACION MAS,,,,,,,,,PARRAFO ::= ORACION MAS,,PARRAFO ::= ORACION MAS,PARRAFO ::= ORACION MAS,PARRAFO ::= ORACION MAS,,PARRAFO ::= ORACION MAS,PARRAFO ::= ORACION MAS,PARRAFO ::= ORACION MAS,,,,,,,,,,,,,,PARRAFO ::= ORACION MAS,PARRAFO ::= ORACION MAS,PARRAFO ::= ORACION MAS,PARRAFO ::= ORACION MAS
+MAS,,,,,,MAS ::= PARRAFO,MAS ::= PARRAFO,,,,,,,,,MAS ::= PARRAFO,,MAS ::= PARRAFO,MAS ::= PARRAFO,MAS ::= PARRAFO,,MAS ::= PARRAFO,MAS ::= PARRAFO,MAS ::= PARRAFO,,,,,,,,,,,,,,MAS ::= PARRAFO,MAS ::= PARRAFO,MAS ::= PARRAFO,MAS ::= PARRAFO
+ORACION,,,,,,,ORACION ::= id LLAMADA,,,,,,,,,ORACION ::= LUGAR,,ORACION ::= LUGAR,ORACION ::= LUGAR,ORACION ::= LUGAR,,ORACION ::= LUGAR,ORACION ::= LUGAR,ORACION ::= LUGAR,,,,,,,,,,,,,,ORACION ::= VARIABLES,ORACION ::= VARIABLES,ORACION ::= VARIABLES,ORACION ::= VARIABLES
+LLAMADA,,,LLAMADA ::= FUNCION_INI,,,,,LLAMADA ::= VARIABLE_FORMA,,,,,,,LLAMADA ::= VARIABLE_FORMA,,,,,,,,,,,,,,,,,,,,,,,,,,
+FUNCION_INI,,,FUNCION_INI ::= par_init INDICADORES par_fin break_line,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+INDICADORES,,,,INDICADORES ::= ε,,,INDICADORES ::= VALOR_PARAMETRO PARAMETRO,,,INDICADORES ::= VALOR_PARAMETRO PARAMETRO,INDICADORES ::= VALOR_PARAMETRO PARAMETRO,INDICADORES ::= VALOR_PARAMETRO PARAMETRO,INDICADORES ::= VALOR_PARAMETRO PARAMETRO,INDICADORES ::= VALOR_PARAMETRO PARAMETRO,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PARAMETRO,,,,PARAMETRO ::= ε,,,,,PARAMETRO ::= comma INDICADORES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+VALOR_PARAMETRO,,,,,,,VALOR_PARAMETRO ::= id,,,VALOR_PARAMETRO ::= number,VALOR_PARAMETRO ::= texto,VALOR_PARAMETRO ::= char,VALOR_PARAMETRO ::= true,VALOR_PARAMETRO ::= false,,,,,,,,,,,,,,,,,,,,,,,,,,,
+VARIABLES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,VARIABLES ::= TIPO_ESPECIAL id VARIABLE_FORMA,VARIABLES ::= TIPO_ESPECIAL id VARIABLE_FORMA,VARIABLES ::= TIPO_ESPECIAL id VARIABLE_FORMA,VARIABLES ::= TIPO_ESPECIAL id VARIABLE_FORMA
+VARIABLE_FORMA,,,,,,,,VARIABLE_FORMA ::= ASIGNACION break_line,,,,,,,VARIABLE_FORMA ::= ASIGNACION break_line,,,,,,,,,,,,,,,,,,,,,,,,,,
+FUNC_INIT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FUNC_INIT ::= TIPO_ESPECIAL id par_init ARGUMENTOS par_fin key_init PARRAFO key_fin,FUNC_INIT ::= TIPO_ESPECIAL id par_init ARGUMENTOS par_fin key_init PARRAFO key_fin,FUNC_INIT ::= TIPO_ESPECIAL id par_init ARGUMENTOS par_fin key_init PARRAFO key_fin,FUNC_INIT ::= TIPO_ESPECIAL id par_init ARGUMENTOS par_fin key_init PARRAFO key_fin
+ARGUMENTOS,,,,ARGUMENTOS ::= ε,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARGUMENTOS ::= TIPO_ESPECIAL id MARGENES,ARGUMENTOS ::= TIPO_ESPECIAL id MARGENES,ARGUMENTOS ::= TIPO_ESPECIAL id MARGENES,ARGUMENTOS ::= TIPO_ESPECIAL id MARGENES
+MARGENES,,,,MARGENES ::= ε,,,,,MARGENES ::= comma TIPO_ESPECIAL id MARGENES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ASIGNACION,,,,,,,,ASIGNACION ::= ε,,,,,,,ASIGNACION ::= oper_asign EXPRESION,,,,,,,,,,,,,,,,,,,,,,,,,,
+IF_INIT,,,,,,,,,,,,,,,,IF_INIT ::= if par_init NEGACION VALOR_PARAMETRO LOGICA par_fin key_init PARRAFO key_fin ELIF_INIT,,,,,,,,,,,,,,,,,,,,,,,,,
+ELIF_INIT,,,,,,ELIF_INIT ::= ε,ELIF_INIT ::= ε,,,,,,,,,ELIF_INIT ::= ε,ELIF_INIT ::= else key_init PARRAFO key_fin,ELIF_INIT ::= ε,ELIF_INIT ::= ε,ELIF_INIT ::= ε,,ELIF_INIT ::= ε,ELIF_INIT ::= ε,ELIF_INIT ::= ε,,,,,,,,,,,,,,ELIF_INIT ::= ε,ELIF_INIT ::= ε,ELIF_INIT ::= ε,ELIF_INIT ::= ε
+LOOP_WHILE,,,,,,,,,,,,,,,,,,LOOP_WHILE ::= while par_init NEGACION VALOR_PARAMETRO LOGICA par_fin key_init PARRAFO key_fin,,,,,,,,,,,,,,,,,,,,,,,
+LOOP_FOR,,,,,,,,,,,,,,,,,,,LOOP_FOR ::= for par_init INIT_FOR comma NEGACION VALOR_PARAMETRO LOGICA comma id oper_asign id SUMA number par_fin key_init PARRAFO key_fin,,,,,,,,,,,,,,,,,,,,,,
+INIT_FOR,,,,,,,INIT_FOR ::= VARIABLE_FORMA_FOR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,INIT_FOR ::= VARIABLES_FOR,INIT_FOR ::= VARIABLES_FOR,INIT_FOR ::= VARIABLES_FOR,INIT_FOR ::= VARIABLES_FOR
+VARIABLES_FOR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,VARIABLES_FOR ::= TIPO_ESPECIAL id oper_asign VALOR_PARAMETRO,VARIABLES_FOR ::= TIPO_ESPECIAL id oper_asign VALOR_PARAMETRO,VARIABLES_FOR ::= TIPO_ESPECIAL id oper_asign VALOR_PARAMETRO,VARIABLES_FOR ::= TIPO_ESPECIAL id oper_asign VALOR_PARAMETRO
+VARIABLE_FORMA_FOR,,,,,,,VARIABLE_FORMA_FOR ::= id oper_asign VALOR_PARAMETRO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RETURN_INIT,,,,,,,,,,,,,,,,,,,,RETURN_INIT ::= return RETURN_FIN break_line,,,,,,,,,,,,,,,,,,,,,
+RETURN_FIN,,,,,,,RETURN_FIN ::= EXPRESION,RETURN_FIN ::= ε,,RETURN_FIN ::= EXPRESION,RETURN_FIN ::= EXPRESION,RETURN_FIN ::= EXPRESION,RETURN_FIN ::= EXPRESION,RETURN_FIN ::= EXPRESION,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NEGACION,,,,,,,NEGACION ::= ε,,,NEGACION ::= ε,NEGACION ::= ε,NEGACION ::= ε,NEGACION ::= ε,NEGACION ::= ε,,,,,,,NEGACION ::= not,,,,,,,,,,,,,,,,,,,,
+PILA_INPUT,,,,,,,,,,,,,,,,,,,,,,PILA_INPUT ::= input par_init id par_fin,,,,,,,,,,,,,,,,,,,
+BREAK_ORACION,,,,,,,,,,,,,,,,,,,,,,,BREAK_ORACION ::= break break_line,,,,,,,,,,,,,,,,,,
+FUERA_INIT,,,,,,,,,,,,,,,,,,,,,,,,FUERA_INIT ::= output par_init PRINT par_fin,,,,,,,,,,,,,,,,,
+PRINT,,,,,,,PRINT ::= EXPRESION,,,PRINT ::= EXPRESION,PRINT ::= EXPRESION,PRINT ::= EXPRESION,PRINT ::= EXPRESION,PRINT ::= EXPRESION,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUMA,,,,,,,,,,,,,,,,,,,,,,,,,SUMA ::= oper_suma,SUMA ::= oper_dif,SUMA ::= oper_mod,SUMA ::= oper_div,SUMA ::= oper_mult,,,,,,,,,,,,
+Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Y ::= and,Y ::= or,Y ::= oper_identico,Y ::= oper_diferente,Y ::= oper_mayor,Y ::= oper_menor,Y ::= oper_menorigu,Y ::= oper_mayorigu,,,,
+EXPRESION,,,,,,,EXPRESION ::= VALOR_PARAMETRO TIPO_EXPRESION,,,EXPRESION ::= VALOR_PARAMETRO TIPO_EXPRESION,EXPRESION ::= VALOR_PARAMETRO TIPO_EXPRESION,EXPRESION ::= VALOR_PARAMETRO TIPO_EXPRESION,EXPRESION ::= VALOR_PARAMETRO TIPO_EXPRESION,EXPRESION ::= VALOR_PARAMETRO TIPO_EXPRESION,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TIPO_EXPRESION,,,,TIPO_EXPRESION ::= EXPRESION_NUMERICA,,,,TIPO_EXPRESION ::= EXPRESION_NUMERICA,,,,,,,,,,,,,,,,,TIPO_EXPRESION ::= EXPRESION_NUMERICA,TIPO_EXPRESION ::= EXPRESION_NUMERICA,TIPO_EXPRESION ::= EXPRESION_NUMERICA,TIPO_EXPRESION ::= EXPRESION_NUMERICA,TIPO_EXPRESION ::= EXPRESION_NUMERICA,TIPO_EXPRESION ::= LOGICA,TIPO_EXPRESION ::= LOGICA,TIPO_EXPRESION ::= LOGICA,TIPO_EXPRESION ::= LOGICA,TIPO_EXPRESION ::= LOGICA,TIPO_EXPRESION ::= LOGICA,TIPO_EXPRESION ::= LOGICA,TIPO_EXPRESION ::= LOGICA,,,,
+EXPRESION_NUMERICA,,,,EXPRESION_NUMERICA ::= BONUS,,,,EXPRESION_NUMERICA ::= BONUS,,,,,,,,,,,,,,,,,EXPRESION_NUMERICA ::= BONUS,EXPRESION_NUMERICA ::= BONUS,EXPRESION_NUMERICA ::= BONUS,EXPRESION_NUMERICA ::= BONUS,EXPRESION_NUMERICA ::= BONUS,,,,,,,,,,,,
+BONUS,,,,BONUS ::= ε,,,,BONUS ::= ε,,,,,,,,,,,,,,,,,BONUS ::= SUMA VALOR_PARAMETRO BONUS,BONUS ::= SUMA VALOR_PARAMETRO BONUS,BONUS ::= SUMA VALOR_PARAMETRO BONUS,BONUS ::= SUMA VALOR_PARAMETRO BONUS,BONUS ::= SUMA VALOR_PARAMETRO BONUS,,,,,,,,,,,,
+LOGICA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,LOGICA ::= Y VALOR_PARAMETRO,LOGICA ::= Y VALOR_PARAMETRO,LOGICA ::= Y VALOR_PARAMETRO,LOGICA ::= Y VALOR_PARAMETRO,LOGICA ::= Y VALOR_PARAMETRO,LOGICA ::= Y VALOR_PARAMETRO,LOGICA ::= Y VALOR_PARAMETRO,LOGICA ::= Y VALOR_PARAMETRO,,,,
+TIPO_ESPECIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TIPO_ESPECIAL ::= character,TIPO_ESPECIAL ::= boolean,TIPO_ESPECIAL ::= string,TIPO_ESPECIAL ::= integer
+LUGAR,,,,,,,,,,,,,,,,LUGAR ::= IF_INIT,,LUGAR ::= LOOP_WHILE,LUGAR ::= LOOP_FOR,LUGAR ::= RETURN_INIT,,LUGAR ::= PILA_INPUT,LUGAR ::= BREAK_ORACION,LUGAR ::= FUERA_INIT,,,,,,,,,,,,,,,,,
